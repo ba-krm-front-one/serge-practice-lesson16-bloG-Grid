@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+body {
+
+   /* min-width: 540px;
+    max-width: 740px;*/
+    background-color: #e2e7ec;
+    background-size: 100%;
+    height: 100%;
+}
+.allblocks {
+    height: 100%;
+}
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /*________проверить___*/
+    align-items: center;
+    height: 100%;
+}
+.first-block {
+    display: inline-block;
+    height: 540px;
+    width: 740px;
+    background: url("../image/car11withgr.png") no-repeat;
+
+}
+.border {
+    padding: 10px;
+    display: flex;
+}
+p {
+    opacity: 0.5;
+    color: #cfcfcf;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.first-block h1:nth-child(n) {
+    width: 433px;
+    height: 60px;
+    margin-left: 43px;
+    margin-top: -10px;
+    color: #ffffff;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.first-block p:first-child {
+    margin-left: 46px;
+    margin-top: 404px;
+}
+.second-block,.third-block, .fourth-block, .fifth-block {
+    display: inline-block;
+    width: 360px;
+    height: 540px;
+    background-color: #ffffff;
+}
+.second-block h2:nth-child(n) {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-top: -10px;
+}
+.second-block p:nth-child(n) {
+    margin-left: 23px;
+}
+.second-block img:last-child {
+    margin-left: 23px;
+    margin-top: 60px;
+}
+.third-block h2:nth-child(n) {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-top: -10px;
+}
+.third-block p:nth-child(n) {
+    margin-left: 23px;
+}
+.third-block img:last-child {
+    margin-left: 23px;
+    margin-top: 60px;
+}
+.fourth-block h2:nth-child(n) {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-top: 43px;
+}
+.fourth-block img:last-child {
+    margin-left: 23px;
+    margin-top: 60px;
+}
+.fifth-block h2:nth-child(n) {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-top: -10px;
+}
+.fifth-block p:nth-child(n) {
+    margin-left: 23px;
+}
+.fifth-block img:last-child {
+    margin-left: 23px;
+    margin-top: 60px;
+}
+.lastflex-container h3 {
+    color: #99a5b0;
+    font-family: "Hans Kendrick", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 10px;
+}
+.lastflex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+
+}
