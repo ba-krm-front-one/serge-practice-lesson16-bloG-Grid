@@ -2,29 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Start</title>
+	<title>Blog-grid</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="description" content="" />
-	<link rel="icon" href="favicon.png"/>
+	<link rel="icon" href="faviconnew.png"/>
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
 </head>
 <body>
-	<main class="allblocks">
+	<main class="page-container">
 	<div class="flex-container">
 		<div class="border">
-			<div class="first-block">
+			<div class="grid__item--primary">
 				<p>November 28, 2015</p>
 				<h1>Fantastic Designs Of 2015
 					Concept Cars</h1>
 			</div>
 		</div>
 		<div class="border">
-			<div class="second-block">
+			<div class="grid__item">
 				<img src="image/girlinsunglasses12.png" alt="">
 				<p>November 24, 2015</p>
 				<h2>How To Find Design
@@ -33,8 +33,10 @@
 				<img src="image/autorlogo.png" alt="">
 			</div>
 		</div>
+	<!--</div>
+	<div class="flex-container">-->
 		<div class="border">
-			<div class="third-block">
+			<div class="grid__item">
 				<img src="image/girls21.png" alt="">
 				<p>November 18, 2015</p>
 				<h2>The Only Guide To
@@ -45,16 +47,18 @@
 			</div>
 		</div>
 		<div class="border">
-			<div class="fourth-block">
+			<div class="grid__item">
 				<img src="image/boot22.png" alt="">
+				<p>November 11, 2015</p>
 				<h2>Growth Hack Your Way
 					to a Successful
-					Freelance Career</h2>
+					Freelance Career
+				</h2>
 				<img src="image/autorlogo.png" alt="">
 			</div>
 		</div>
 		<div class="border">
-			<div class="fifth-block">
+			<div class="grid__item">
 				<img src="image/bench23.png" alt="">
 				<p>November 08, 2015</p>
 				<h2>Get 80% Off DSLR
@@ -62,16 +66,14 @@
 					Bundle</h2>
 				<img src="image/autorlogo.png" alt="">
 			</div>
-			</div>
-	</div>
-	</main>
-	<footer class="allblocks">
-		<div class="lastflex-container">
-			<div class="border">
-				<img src="image/loading.svg" alt="Load-img">
-				<h3>Loading new content</h3>
+		</div>
+		<div class="border__loading">
+			<div class="grid__item--loading">
+					<img src="image/loading.svg" alt="Load-img">
+					<h3>Loading new content</h3>
 			</div>
 		</div>
-	</footer>
+	</div>
+	</main>
 </body>
 </html>
